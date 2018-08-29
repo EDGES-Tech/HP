@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('top/',include('top.urls')),
+    url(r'^contact/', include('contact.urls', namespace='member')),
 ]
