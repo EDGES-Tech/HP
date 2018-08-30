@@ -44,6 +44,16 @@ body {
 	.container {
 		padding: 60px 0;
 	}
+	
+	.container0 {
+		display: flex;
+		max-width: 1000px;
+		max-width: var(--large-width);
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 }
 
 h2 {
@@ -310,7 +320,8 @@ footer a:hover {
 
 .form .container {
 	display: inline-block;
-	padding: 60px 0;
+	width: 1000px;
+	width: var(--large-width);
 }
 
 .form p {
@@ -381,6 +392,19 @@ footer a:hover {
 /* conAB */
 .conAB {
 	padding: 60px 0 20px;
+}
+
+.conAB img {
+	width: 1000px;
+	height: 625px;
+}
+
+.conAB .bot_communication p {
+	display: inline-block;
+}
+
+.conAB .bot_communication .time {
+	font-size: 
 }
 
 @media (min-width: 768px) {
@@ -478,7 +502,26 @@ footer a:hover {
 	opacity: 0.8;
 }
 
+.conC ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
 .conC a {
+	display: block;
+	padding: 15px;
+	color: #222;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.conC .number ul {
+	justify-content: center;
+}
+
+/*.conC a {
 	display: inline-block;
 	margin-top: 20px;
 	padding: 18px 32px;
@@ -495,7 +538,7 @@ footer a:hover {
 
 .conC a:hover {
 	background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2));
-}
+}*/
 
 @media (min-width: 768px) {
 	.conC .container {
@@ -503,16 +546,6 @@ footer a:hover {
 		max-width: var(--large-width);
 		margin-left: auto;
 		margin-right: auto;
-	}
-	
-	.conC .container0 {
-		display: flex;
-		max-width: 1000px;
-		max-width: var(--large-width);
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 40px;
-		padding-bottom: 40px;
 	}
 	
 	.conC .container1 {
@@ -1052,16 +1085,3 @@ footer a:hover {
 		flex: 1 1 50%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

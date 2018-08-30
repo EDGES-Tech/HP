@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Edges-tech -Scraiping-</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>
+	$(function(){
+		$(".headC").click(function(){
+			$(".headB").slideToggle();
+		});
+	});
+</script>
+</head>
+
+<body>
+	<!-- header -->
+	<header class="head-fixed">
+		<div class="container">
+			<div class="container-small">
+				<a href="Top.html" class="headA"><img src="img/logo_text.svg" alt=""></a>
+				<button type="button" class="headC"><i class="fas fa-bars"></i></button>
+			</div>
+			<nav class="headB">
+				<ul>
+					<li><a href="Top.html">Top</a></li>
+					<li><a href="#conAB">About</a></li>
+					<li><a href="#">Result</a></li>
+					<li><a href="member.html">Member</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- conA -->
+	<section class="conA">
+		<div class="container">
+			<h1>Edges-tech</h1>
+			<p>Are You Exciting?</p>
+			<a href="#">ゾクゾクしていますか？</a>
+		</div>
+	</section>
+	<!-- conAB -->
+	<section class="conAB">
+		<div class="container">
+			<h2><span>Scraiping</span>　~やってきたこと~</h2>
+			<p>最近流行のスクレイピングやBotの自作だけでなく、メディア作成や、解析、各種セミナーの運営も実施しています。</p>
+			<form action="info@edges-tech.com" method="post">
+				<div><i class="fas fa-user-tie"></i><input type="text" name="name" placeholder="Name" required><input type="submit" value="Send"></div>
+			</form>
+			<div class="bot_communication">
+				<p class="time">2018/08/30/24:00</p>
+				<p class="name">UserName</p>
+				<p class="text">Test test test test test test test test.</p>
+			</div>
+			<div class="bot_communication">
+				<p class="time">2018/08/30/24:00</p>
+				<p class="name">BotsName</p>
+				<p class="text">Test test test test test test test test.</p>
+			</div>
+			<div class="bot_communication">
+				<p class="time">2018/08/30/24:00</p>
+				<p class="name">UserName</p>
+				<p class="text">Test test test test test test test test.</p>
+			</div>
+			<form action="info@edges-tech.com" method="post">
+				<div><i class="fas fa-tag"></i><input type="text" name="name" placeholder="Subject" required><input type="submit" value="Send"></div>
+			</form>			
+		</div>
+	</section>
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<img src="img/footer_logo.svg" alt="">
+			<nav class="footD">
+				<ul>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+				</ul>
+			</nav>
+			<p>〒000-0000 東京都000000000</p>
+			<p>03 - 0000 - 0000</p>
+			<h6>©︎ F-EPS corp. All rights reserved.</h6>
+		</div>
+	</footer>
+	
+</body>
+</html>
