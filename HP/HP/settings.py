@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'top',
-    'django_forms_bootstrap',
+    'member',
+    'contact',
+    #'django_forms_bootstrap',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#画像の保存先
+MEDIA_URL = 'static/HP/img/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/HP/img/')
