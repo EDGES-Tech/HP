@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Edges-tech</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>
+	$(function(){
+		$(".headC").click(function(){
+			$(".headB").slideToggle();
+		});
+	});
+</script>
+</head>
+
+<body>
+	<!-- header -->
+	<header class="head-fixed">
+		<div class="container">
+			<div class="container-small">
+				<a href="index.html" class="headA"><img src="img/logo_text.svg" alt=""></a>
+				<button type="button" class="headC"><i class="fas fa-bars"></i></button>
+			</div>
+			<nav class="headB">
+				<ul>
+					<li><a href="index.html">Top</a></li>
+					<li><a href="#conAB">About</a></li>
+					<li><a href="#">Result</a></li>
+					<li><a href="member.html">Member</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- conA -->
+	<section class="conA">
+		<div class="container">
+			<img src="img/vol_1.svg" alt="">
+			<h1>Edges-tech</h1>
+			<p>Are You Exciting?</p>
+			<a href="#">ゾクゾクしていますか？</a>
+		</div>
+	</section>
+	<!-- conAB -->
+	<section class="conAB">
+		<div class="container">
+			<h2><span>About</span>　~Edges-techについて</h2>
+			<p>実践ベースの開発・設計を中心に、基礎理論や、展開も含めて学びます。</p>
+		</div>
+	</section>
+	
+	<!-- conB -->
+	<section class="conB">
+		<div class="container">
+			<div class="photo">
+				<img src="img/logo.svg" alt="">
+			</div>
+			<div class="text">
+				<h3>Concept</h3>
+				<p>私達は、初心者教育「Education」に力を入れています。
+					「デザイン：Design」、「グロースハック：GrowthHack」、
+					「エンジニアリング：Engineering」、「サイエンス：Science」
+					の4つの分野で秀でた人材を育成するために、
+					初心者から楽しく始められる環境を用意しています。</p>
+			</div>
+		</div>
+	</section>
+	<!-- conC -->
+	<section class="conC">
+		<div class="container">
+			<h3>Activity</h3>
+			<div class="container0">
+				<div class="photo"></div>
+				<div class="text">
+					<h4><span>もくもく会</span>　毎週日曜夜</h4>
+					<p>基本的には、各々自分の開発を黙々と進めています。
+						わからないことは調べるよりも聞いたほうが早く解決します。
+						自分よりも少し経験のある人に聞ける環境を用意しています。
+						興味有る人は、一度こちらに参加してみて下さい。</p>
+				</div>
+			</div>
+			<div class="container1">
+				<div class="photo"></div>
+				<div class="text">
+					<h4><span>セミナー</span>　月に１度</h4>
+					<p>不定期に自分たちが躓いた分野や、理解が難しい分野、
+						日本語化が遅れている分野、面白い分野等に対して、
+						知識をまとめてセミナー化しています。
+						体系立てた知識をオフラインで気軽に吸収したい人は
+						是非興味有る講義に参加下さい。</p>
+				</div>
+			</div>
+			<div class="container0">
+				<div class="photo"></div>
+				<div class="text">
+					<h4><span>受託開発</span>　随時募集</h4>
+					<p>受託開発も可能な範囲で、請け負っています。
+						簡単なWorld PressによるHPや自社メディアの作成や、
+						Pythonを扱える人材が多いため、
+						DjangoフレームワークによるWeb開発、
+						データ解析案件等も対応しています。</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- conD -->
+	<section class="conD">
+		<div class="container">
+			<h2><span>Result</span>　~Edges-techについて</h2>
+			<p>最近流行のスクレイピングやBotの自作だけでなく、メディア作成や、解析、各種セミナーの運営も実施しています。</p>
+			<div class="container_in">
+				<div class="text">
+					<i class="fab fa-accusoft icon"></i>
+					<h4>受託開発</h4>
+					<p>気になるメディアを、検索ワードに応じてスクレイピング出来る、
+						アプリケーションです。気になる検索用語をキーとしてURL先に対しスクレイピングを行います。</p>
+					<a href="#">More... <i class="fas fa-angle-right"></i></a>
+				</div>
+				<div class="text">
+					<i class="fab fa-accusoft icon"></i>
+					<h4>Bot作成</h4>
+					<p>質問をすると応答してくれる簡易人工知能（人工無能）です。
+						現状は投げかけた用語をそのまま返す仕様となっています。</p>
+					<a href="#">More... <i class="fas fa-angle-right"></i></a>
+				</div>
+				<div class="text">
+					<i class="fab fa-accusoft icon"></i>
+					<h4>Web解析</h4>
+					<p>テストテストテストテストテストテストテストテストテスト
+						テストテストテストテストテストテストテストテストテスト
+						テストテストテストテストテストテスト</p>
+					<a href="#">More... <i class="fas fa-angle-right"></i></a>
+				</div>
+			</div>
+			<div class="container_in">
+				<div class="text">
+					<i class="fab fa-accusoft icon"></i>
+					<h4>Webサイト開発</h4>
+					<p>記事の登録、確認、更新、削除といった基礎機能を実装しています。</p>
+					<a href="#">More... <i class="fas fa-angle-right"></i></a>
+				</div>
+				<div class="text">
+					<i class="fab fa-accusoft icon"></i>
+					<h4>Udemy動画掲載</h4>
+					<p>Pythonの基礎と、Djangoフレームワークに関してUdemy様へ動画寄稿依愛しました。
+						詳細な内容が詰まっていますので気になる方は是非ご確認下さい。</p>
+					<a href="#">More... <i class="fas fa-angle-right"></i></a>
+				</div>
+				<div class="text">
+					<i class="fab fa-accusoft icon"></i>
+					<h4>セミナー開催</h4>
+					<p>初心者に向けた簡易セミナーを不定期で開催しています。
+						動画化した講義についても依頼に基づいてセミナーを開催する場合もございます。
+						詳しくはお問い合わせ下さい。</p>
+					<a href="#">More... <i class="fas fa-angle-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- form -->
+	<section class="form">
+		<div class="container">
+			<h2><span>CONTACT</span>　~Edges-techについて</h2>
+			<p>Edges-Techに興味を持っていただきありがとうございます。各種お問い合わせはこちらからお願いします。</p>
+			<form action="info@edges-tech.com" method="post">
+				<div><i class="fas fa-user-tie"></i><input type="text" name="name" placeholder="Name" required></div>
+				<div><i class="fas fa-envelope"></i><input type="email" name="name" placeholder="Email Address" required></div>
+				<div><i class="fas fa-tag"></i><input type="text" name="name" placeholder="Subject" required></div>
+				<div><i class="fas fa-pen"></i><textarea name="name" placeholder="Description" required></textarea></div>
+				<div><input type="submit" value="Send"></div>
+			</form>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<img src="img/footer_logo.svg" alt="">
+			<nav class="footD">
+				<ul>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+				</ul>
+			</nav>
+			<p>〒000-0000 東京都000000000</p>
+			<p>03 - 0000 - 0000</p>
+			<h6>©︎ F-EPS corp. All rights reserved.</h6>
+		</div>
+	</footer>
+	
+</body>
+</html>
